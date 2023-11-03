@@ -24,9 +24,7 @@ public class Sale {
 		this.dis = dis;
 	}
 
-	public Integer getSaleID() {
-		return saleID;
-	}
+
 
 	public void setSaleID(Integer saleID) {
 		this.saleID = saleID;
