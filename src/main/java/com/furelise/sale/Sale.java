@@ -10,9 +10,7 @@ public class Sale {
 	private Double disRequire;
 	private Double dis;
 
-	public Sale() {
-		super();
-	}
+
 
 	public Sale(Integer saleID, String coupon, Date saleStart, Date saleEnd, Double disRequire, Double dis) {
 		super();
