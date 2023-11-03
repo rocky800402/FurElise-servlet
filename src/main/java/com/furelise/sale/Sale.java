@@ -23,7 +23,10 @@ public class Sale {
 		this.disRequire = disRequire;
 		this.dis = dis;
 	}
-
+	
+	public Integer getSaleID() {
+		return saleID;
+	}
 
 
 	public void setSaleID(Integer saleID) {
