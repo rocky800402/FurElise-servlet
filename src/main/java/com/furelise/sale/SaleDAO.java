@@ -2,7 +2,6 @@ package com.furelise.sale;
 
 import java.util.List;
 
-import jdbcTest.Sale;
 
 public interface SaleDAO {
 	void add(Sale sale);
