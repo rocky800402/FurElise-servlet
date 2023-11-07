@@ -8,9 +8,9 @@ public interface OrdDetailDAO {
 
 	void update(OrdDetail ordDetail);
 
-	void delete(int dataID);
+	void delete(int ordID, int pID);
 
-	OrdDetail findByPK(Integer dataID);
+	OrdDetail findByPK(Integer ordID, Integer pID);
 
 	List<OrdDetail> getAll();
 

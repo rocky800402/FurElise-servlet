@@ -4,7 +4,6 @@ import java.sql.Date;
 
 public class OrdDetail {
 	
-	private Integer detaID;
 	private Integer ordID;
 	private Integer pID;
 	private Integer detaQty;
@@ -14,13 +13,12 @@ public class OrdDetail {
 	
 	public OrdDetail() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
-	public OrdDetail(Integer detaID, Integer ordID, Integer pID, Integer detaQty, Double pPrice, String feedback,
+	public OrdDetail( Integer ordID, Integer pID, Integer detaQty, Double pPrice, String feedback,
 			Integer level, Date fbTime) {
 		super();
-		this.detaID = detaID;
+		
 		this.ordID = ordID;
 		this.pID = pID;
 		this.detaQty = detaQty;
@@ -29,13 +27,6 @@ public class OrdDetail {
 		this.fbTime = fbTime;
 	}
 
-	public Integer getDetaID() {
-		return detaID;
-	}
-
-	public void setDetaID(Integer detaID) {
-		this.detaID = detaID;
-	}
 
 	public Integer getOrdID() {
 		return ordID;
