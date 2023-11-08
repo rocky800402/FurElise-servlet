@@ -1,8 +1,10 @@
 package com.furelise.product;
 
+
 import java.sql.Date;
 
 public class Product {
+	
 	private Integer pID;
 	private String pName;
 	private Double pPrice;
@@ -17,7 +19,7 @@ public class Product {
 	
 	public Product() {
 		super();
-	
+		// TODO Auto-generated constructor stub
 	}
 
 	public Product(Integer pID, String pName, Double pPrice, Integer pClassID, Integer pStock, Boolean pStatus,

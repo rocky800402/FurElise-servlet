@@ -1,8 +1,7 @@
 package com.furelise.productclass;
 
-import java.io.Serializable;
 
-public class ProductClass implements Serializable{
+public class ProductClass {
 	
 	private Integer pClassID;
 	private String pClassName;
