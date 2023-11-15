@@ -1,4 +1,4 @@
-package com.furelise.estabcase;
+package entity;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
