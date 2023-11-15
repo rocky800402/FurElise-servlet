@@ -1,4 +1,4 @@
-package com.furelise.sale;
+package entity;
 
 import java.sql.Date;
 

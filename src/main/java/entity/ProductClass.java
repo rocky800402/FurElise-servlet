@@ -1,4 +1,4 @@
-package com.furelise.productclass;
+package entity;
 
 
 public class ProductClass {
