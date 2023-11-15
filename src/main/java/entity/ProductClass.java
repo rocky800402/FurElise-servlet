@@ -1,4 +1,4 @@
-package com.furelise.productclass;
+package entity;
 
 import java.io.Serializable;
 
