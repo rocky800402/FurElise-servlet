@@ -1,4 +1,4 @@
-package entity;
+package com.furelise.entity;
 
 public class ShopCart {
 	private Integer memID;
